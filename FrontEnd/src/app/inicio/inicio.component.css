@@ -1,0 +1,62 @@
+/* HEADER */
+
+.site-header {
+    background-color: #146ad3;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inici {
+    background-image: url(../../assets/img/foto-inicial.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;
+}
+
+@media (min-width: 768px) {
+    .site-header.inici {
+        height: 50rem;
+        min-height: 60rem;
+    }
+}
+
+.contingut-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Direcció de flex anirá de dalt cap a baix*/
+    justify-content: space-between;
+    /* flex-star --> els tira cap amunt
+       flex-end --> els tira cap avall
+       flex-center --> els tira cap al centre
+       space-between --> els separa entre sí (alinear un a dalt i un a baix)
+    */
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .contingut-header {
+        text-align: left;
+    }
+}
+
+.text-header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-header h2 {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 2rem;
+    max-width: 80rem;
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .text-header h2 {
+        font-size: 3rem;
+    }
+}
+

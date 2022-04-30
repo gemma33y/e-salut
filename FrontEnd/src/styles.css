@@ -1,0 +1,139 @@
+@import '~maplibre-gl/dist/maplibre-gl.css';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Reset para REMS - 62.5% = 10px de 16px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    /* Això servei perquè el padding no afecti a la mida del objectes*/
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #e9e9e95e;
+}
+
+
+/* Globals */
+
+img {
+    max-width: 100%;
+    /* Si les imatges són massa grans amb això aconseguim que
+       s'ajustin al contenidor sense afectar les que tenen una mida més petita i correcte */
+}
+
+.contenidor {
+    width: 95%;
+    max-width: 120rem;
+    /* = 1200px; */
+    /* Agafa tota la mida de la pantalla, sempre i quan no passi dels 1200px */
+    margin: 0 auto;
+    /* Dalt, detra, avaix, esquerra --> Un rellotge 
+    Si poses:
+        margin-left: auto;
+        margin-right: auto;
+    És el mateix
+    
+    Si dalt i avaix i esquerra i detra són iguals:
+        margin: 0 auto;
+    Si no són iguals:
+        margin: 0 auto 0 auto;
+    */
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Per convertir el text en majúscules */
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Butons */
+
+.boto {
+    font-weight: 700;
+    /* Gruix */
+    text-decoration: none;
+    /* Per treure la línia de "link" */
+    font-size: 2.5rem;
+    /* Per fer les lletres més grans */
+    padding: 1.5rem 3rem;
+    /* Diferència entre padding i margin --> el padding fa espai cap a dins, el margin cap a fora*/
+    display: inline-block;
+    /* Els links són "display: inline;", per posar marge o gruix hem de posar "display: block;" 
+        display: block; --> ocupa tot l'espai
+        display: inline-block; --> ens permet posar marges i gruix però sense que ocupi tot l'espai */
+    margin-top: 2rem;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+    /* flex: grow shrink basis;
+        
+        flex-grow: 0;
+        Això fa que el contingut creixi si és possible
+        
+        flex-shrink: 0;
+         Això es fa perquè no es faci petit i agafi la mida que ha d'agafar
+    
+        flex-basis: calc(33.3% - 1rem);
+        */
+}
+
+@media (min-width: 768px) {
+    .boto {
+        display: inline-block;
+        flex: 0 0 auto;
+        font-size: 2rem;
+    }
+}
+
+.boto:hover {
+    cursor: pointer;
+    /* Això el que fa es que quan el mouse estigui a sobre dels botons canvi la seva forma */
+}
+
+
+
+.boto-blanc {
+    background-color: #6eabf5;
+    color: #000000;
+    padding: 2rem 2rem;
+    text-transform: uppercase;
+    /* Posar majúscules */
+    transition: all 1s ease;
+    position: relative;
+    /*box-shadow: 0 4px 16px #a8a8a88c;*/
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.boto-blanc:hover {
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .boto-blanc {
+        display: flex;
+        width: 18rem;
+        height: 10rem;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        margin: 2rem auto;
+    }
+}
+
