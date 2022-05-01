@@ -29,6 +29,7 @@
     "maplibre-gl": "^2.1.9",
     "newsletter": "^4.0.1",
     "rxjs": "~6.5.5",
+    "sweetalert": "^2.1.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },

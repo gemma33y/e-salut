@@ -1,27 +1,33 @@
 /* SERVEIS */
 
 h2 {
-  font-size: 3.5rem;
-  color: #4a79bb;
+  font-size: 4rem;
+  text-align: center;
+  color: black;
+  padding-top: 10rem;
 }
 
 .fons-serveis {
   background-color: none;
   background-size: cover;
-  margin-top: 5rem;
+  
+  background-image: url("../../assets/img/background-image2.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
   .fons-serveis {
-      margin-top: 10rem;
       margin-bottom: 0;
       padding-bottom: 10rem;
   }
 }
 
+
 @media (min-width: 768px) {
-  .contingut-serveis {
-      width: 95%;
+  .contenidor-serveis {
+      width: 60%;
+      margin: auto;
   }
 }
 
@@ -73,7 +79,7 @@ h2 {
 @media (min-width: 768px) {
   .contenidor-serveis {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 0;
   }
 }

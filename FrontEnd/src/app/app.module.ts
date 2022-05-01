@@ -20,13 +20,15 @@ import { RecordatorisComponent } from './recordatoris/recordatoris.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { CitaComponent } from './cita/cita.component';
+import { MetgesComponent } from './metges/metges.component';
 
 const appRoutes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: 'serveis', component: HomeComponent},
   {path: 'inici', component: InicioComponent},
   {path: 'map', component: MapComponent},
   {path: 'recordatoris', component: RecordatorisComponent},
   {path: 'cites', component: CitaComponent},
+  {path: 'professionals', component: MetgesComponent},
   {path: '', redirectTo: '/inici', pathMatch: 'full'},
   {path: '404', redirectTo: '/inici'},
   {path: '**', redirectTo: '/inici'}
@@ -41,7 +43,8 @@ const appRoutes: Routes = [
     MapComponent,
     FooterComponent,
     RecordatorisComponent,
-    CitaComponent
+    CitaComponent,
+    MetgesComponent
   ],
   imports: [
     BrowserModule,

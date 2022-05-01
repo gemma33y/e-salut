@@ -1,0 +1,38 @@
+
+@media (min-width: 768px) {
+  .contenedor-anuncios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 5rem;
+  }
+}
+
+.anuncio {
+  background-color: rgb(128, 180, 235);
+  margin: 5rem auto;
+}
+
+h2 {
+  font-size: 4rem;
+  color: black;
+  padding-top: 10rem;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contenido-anuncio {
+  padding: 0 2rem;
+}
+
+.boton-amarillo-block {
+  
+}
