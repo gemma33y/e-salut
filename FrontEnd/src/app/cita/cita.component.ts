@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-cita',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CitaComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() {}
 
   ngOnInit(): void {
   }
+
 
 }

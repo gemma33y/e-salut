@@ -25,6 +25,7 @@
     "@googlemaps/js-api-loader": "^1.14.1",
     "@types/geojson": "^7946.0.8",
     "@types/maplibre-gl": "^1.14.0",
+    "formBuilder": "^3.8.3",
     "maplibre-gl": "^2.1.9",
     "newsletter": "^4.0.1",
     "rxjs": "~6.5.5",

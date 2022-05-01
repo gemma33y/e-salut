@@ -6,7 +6,7 @@
 }
 
 .site-header.inici {
-    background-image: url(../../assets/img/foto-inicial.jpeg);
+    background-image: url(../../assets/img/foto-inici.png);
     background-position: center center;
     background-size: cover;
     height: 35rem;
@@ -23,13 +23,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* Direcció de flex anirá de dalt cap a baix*/
     justify-content: space-between;
-    /* flex-star --> els tira cap amunt
-       flex-end --> els tira cap avall
-       flex-center --> els tira cap al centre
-       space-between --> els separa entre sí (alinear un a dalt i un a baix)
-    */
     text-align: center;
 }
 
@@ -60,3 +54,20 @@
     }
 }
 
+.navegacio {
+    text-align:center;
+    line-height: center;
+    color: white;
+    text-decoration:none;
+}
+
+.cont_nav{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    position: relative;
+    background-color: #4a79bb;
+    transition: all 1s ease;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    margin: auto auto;
+}

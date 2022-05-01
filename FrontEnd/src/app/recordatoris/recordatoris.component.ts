@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecordatorisComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  
+  }
 
   ngOnInit(): void {
   }

@@ -1,5 +1,10 @@
 /* SERVEIS */
 
+h2 {
+  font-size: 3.5rem;
+  color: #4a79bb;
+}
+
 .fons-serveis {
   background-color: none;
   background-size: cover;
@@ -10,7 +15,7 @@
   .fons-serveis {
       margin-top: 10rem;
       margin-bottom: 0;
-      padding-bottom: 0;
+      padding-bottom: 10rem;
   }
 }
 
@@ -21,7 +26,7 @@
 }
 
 .color-lila {
-  color: #1d3557;
+  color: #4a79bb;
   line-height: 1;
   font-size: 3rem;
   font-weight: 700;

@@ -108,8 +108,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .boto-blanc {
-    background-color: #6eabf5;
-    color: #000000;
+    background-color: #4a79bb;
+    color: #ffffff;
     padding: 2rem 2rem;
     text-transform: uppercase;
     /* Posar majúscules */
@@ -122,7 +122,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .boto-blanc:hover {
-    border-radius: 20px;
+    background-color: #f2ae30;
+    color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -136,4 +137,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         margin: 2rem auto;
     }
 }
+
+  
 
