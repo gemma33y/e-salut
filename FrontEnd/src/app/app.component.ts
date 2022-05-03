@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(){
     var today_tmp = Date();
     var today = new Date(today_tmp);
-    let noti_day = new Date('May 1, 2022 00:14:00');
+    let noti_day = new Date('May 1, 2022 09:58:00');
 
     let hoursAndMinutes_today = today.getHours() + ':' + today.getMinutes();
     let hoursAndMinutes_noti = noti_day.getHours() + ':' + noti_day.getMinutes();

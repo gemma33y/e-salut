@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1651570629385,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.324d3547bca5e079651b.js",
+        "/manifest.webmanifest",
+        "/polyfills.a4021de53358bb0fec14.js",
+        "/runtime.e227d1a0e31cbccbf8ec.js",
+        "/styles.bd3828a5e588ba189b56.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/logo.png",
+        "/assets/img/background-image2.jpg",
+        "/assets/img/calendar.png",
+        "/assets/img/foto-inici.png",
+        "/assets/img/imatge-cita-previa.jpg",
+        "/assets/img/linkedin-logo.png",
+        "/assets/img/logo.png",
+        "/assets/img/pastilla1.png",
+        "/assets/img/pastilla2.png",
+        "/assets/img/pastilla3.png",
+        "/assets/img/professionals/doctor3.jpg",
+        "/assets/img/professionals/doctor4.jpg",
+        "/assets/img/professionals/doctora1.jpg",
+        "/assets/img/professionals/doctora2.jpg",
+        "/background-image2.b992b1c7b2d7ea4ad2f3.jpg",
+        "/foto-inici.95a648200d2e860641be.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/logo.png": "8fb6859db541d6fa7536aa7bd8baca7f866c1c73",
+    "/assets/img/background-image2.jpg": "ac349cba18a0b9933185b3bab6e1dacad514121e",
+    "/assets/img/calendar.png": "8d97c1609e7e7ee734aae7937b2526567af335c7",
+    "/assets/img/foto-inici.png": "98dda963fcaf9a4b083360f7aa7b8d49b2f0388a",
+    "/assets/img/imatge-cita-previa.jpg": "15b9bd2b4e813524de172db7a21ea5aebf506228",
+    "/assets/img/linkedin-logo.png": "aa2cc1b6231bb7566b5e1a3f144b6d6f0d33007e",
+    "/assets/img/logo.png": "486ffaad6623fe2a69b54b34e2bed034a609666c",
+    "/assets/img/pastilla1.png": "383e5ea51b2828198ad9ba81d2fcc9a13b84529a",
+    "/assets/img/pastilla2.png": "3ca9923c118bbf699a3a999ed7f6724d76868529",
+    "/assets/img/pastilla3.png": "3d9710837e80511d3dc0838777b179721cbefc95",
+    "/assets/img/professionals/doctor3.jpg": "c33168caba62bd9a53669c90abdd021fdbdb78b1",
+    "/assets/img/professionals/doctor4.jpg": "f144ec0820d76b52731d5c899ab6bf6cdb6f050e",
+    "/assets/img/professionals/doctora1.jpg": "6b8ae64e0455c7a833c43bd1249659026caa58c8",
+    "/assets/img/professionals/doctora2.jpg": "4891654e2029563eaaac0e0c0e0a54342d74c327",
+    "/background-image2.b992b1c7b2d7ea4ad2f3.jpg": "ac349cba18a0b9933185b3bab6e1dacad514121e",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/foto-inici.95a648200d2e860641be.png": "98dda963fcaf9a4b083360f7aa7b8d49b2f0388a",
+    "/index.html": "5fb534ebbe717f215567e0772cafe178b20e2659",
+    "/main.324d3547bca5e079651b.js": "d65e03e19f0aa00604a535ab2594e7945e6f8972",
+    "/manifest.webmanifest": "71e9a0a1561b05c24573080d3b54fba98caf0440",
+    "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.bd3828a5e588ba189b56.css": "5e65592e6fb912016a65aa6790cb0282d173520a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
